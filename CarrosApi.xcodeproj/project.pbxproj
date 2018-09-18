@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484B70145F0BA81893CE7D69 /* Pods_CarrosApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC2F732606643E4DD78A89E /* Pods_CarrosApi.framework */; };
+		EA86ED4A210FDF3100E02DBB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA86ED49210FDF3100E02DBB /* Alamofire.framework */; };
+		EA86ED4C210FDF3100E02DBB /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA86ED4B210FDF3100E02DBB /* AlamofireImage.framework */; };
+		EA86ED4E210FDF3100E02DBB /* AlamofireNetworkActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA86ED4D210FDF3100E02DBB /* AlamofireNetworkActivityIndicator.framework */; };
+		EA86ED50210FDF3100E02DBB /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA86ED4F210FDF3100E02DBB /* AlamofireObjectMapper.framework */; };
+		EA86ED52210FDF3100E02DBB /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA86ED51210FDF3100E02DBB /* MBProgressHUD.framework */; };
+		EA86ED54210FDF3100E02DBB /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA86ED53210FDF3100E02DBB /* ObjectMapper.framework */; };
+		EA86ED56210FE5F500E02DBB /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86ED55210FE5F500E02DBB /* Constantes.swift */; };
+		EA86ED5B210FEAF400E02DBB /* CarroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86ED59210FEAF400E02DBB /* CarroTableViewCell.swift */; };
+		EA86ED5C210FEAF400E02DBB /* CarroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA86ED5A210FEAF400E02DBB /* CarroTableViewCell.xib */; };
+		EAB52E2421112F4D00BBCC3E /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB52E2321112F4D00BBCC3E /* ColorHex.swift */; };
+		EAB52E27211130B900BBCC3E /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB52E25211130B900BBCC3E /* DetalhesViewController.swift */; };
 		EACD555F210FDB1400347F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD555E210FDB1400347F58 /* AppDelegate.swift */; };
 		EACD5561210FDB1400347F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD5560210FDB1400347F58 /* ViewController.swift */; };
 		EACD5564210FDB1400347F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACD5562210FDB1400347F58 /* Main.storyboard */; };
@@ -14,6 +26,10 @@
 		EACD5569210FDB1500347F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACD5567210FDB1500347F58 /* LaunchScreen.storyboard */; };
 		EACD5574210FDB1500347F58 /* CarrosApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD5573210FDB1500347F58 /* CarrosApiTests.swift */; };
 		EACD557F210FDB1500347F58 /* CarrosApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD557E210FDB1500347F58 /* CarrosApiUITests.swift */; };
+		EACD558E210FDB4500347F58 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD558D210FDB4500347F58 /* Carro.swift */; };
+		EACD5590210FDB6800347F58 /* Carros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD558F210FDB6800347F58 /* Carros.swift */; };
+		EACD5592210FDB7E00347F58 /* CarrosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD5591210FDB7E00347F58 /* CarrosResponse.swift */; };
+		EACD5595210FDCAB00347F58 /* ApiCarrros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD5594210FDCAB00347F58 /* ApiCarrros.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		189F55157EDE233C46EA2F12 /* Pods-CarrosApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrosApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarrosApi/Pods-CarrosApi.release.xcconfig"; sourceTree = "<group>"; };
+		1EC2F732606643E4DD78A89E /* Pods_CarrosApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrosApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F821B6194E1CFEE7FC115C /* Pods-CarrosApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrosApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarrosApi/Pods-CarrosApi.debug.xcconfig"; sourceTree = "<group>"; };
+		EA86ED49210FDF3100E02DBB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA86ED4B210FDF3100E02DBB /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA86ED4D210FDF3100E02DBB /* AlamofireNetworkActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireNetworkActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA86ED4F210FDF3100E02DBB /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA86ED51210FDF3100E02DBB /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA86ED53210FDF3100E02DBB /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA86ED55210FE5F500E02DBB /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		EA86ED59210FEAF400E02DBB /* CarroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarroTableViewCell.swift; sourceTree = "<group>"; };
+		EA86ED5A210FEAF400E02DBB /* CarroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarroTableViewCell.xib; sourceTree = "<group>"; };
+		EAB52E2321112F4D00BBCC3E /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
+		EAB52E25211130B900BBCC3E /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		EACD555B210FDB1400347F58 /* CarrosApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrosApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACD555E210FDB1400347F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EACD5560210FDB1400347F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +77,10 @@
 		EACD557A210FDB1500347F58 /* CarrosApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrosApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACD557E210FDB1500347F58 /* CarrosApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosApiUITests.swift; sourceTree = "<group>"; };
 		EACD5580210FDB1500347F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACD558D210FDB4500347F58 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		EACD558F210FDB6800347F58 /* Carros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carros.swift; sourceTree = "<group>"; };
+		EACD5591210FDB7E00347F58 /* CarrosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosResponse.swift; sourceTree = "<group>"; };
+		EACD5594210FDCAB00347F58 /* ApiCarrros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCarrros.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA86ED4A210FDF3100E02DBB /* Alamofire.framework in Frameworks */,
+				EA86ED4C210FDF3100E02DBB /* AlamofireImage.framework in Frameworks */,
+				EA86ED4E210FDF3100E02DBB /* AlamofireNetworkActivityIndicator.framework in Frameworks */,
+				EA86ED50210FDF3100E02DBB /* AlamofireObjectMapper.framework in Frameworks */,
+				EA86ED52210FDF3100E02DBB /* MBProgressHUD.framework in Frameworks */,
+				EA86ED54210FDF3100E02DBB /* ObjectMapper.framework in Frameworks */,
+				484B70145F0BA81893CE7D69 /* Pods_CarrosApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1682797064D89827BF259DC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6F821B6194E1CFEE7FC115C /* Pods-CarrosApi.debug.xcconfig */,
+				189F55157EDE233C46EA2F12 /* Pods-CarrosApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E78404B9BA8F042AB3FFB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA86ED49210FDF3100E02DBB /* Alamofire.framework */,
+				EA86ED4B210FDF3100E02DBB /* AlamofireImage.framework */,
+				EA86ED4D210FDF3100E02DBB /* AlamofireNetworkActivityIndicator.framework */,
+				EA86ED4F210FDF3100E02DBB /* AlamofireObjectMapper.framework */,
+				EA86ED51210FDF3100E02DBB /* MBProgressHUD.framework */,
+				EA86ED53210FDF3100E02DBB /* ObjectMapper.framework */,
+				1EC2F732606643E4DD78A89E /* Pods_CarrosApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA86ED57210FE88600E02DBB /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EACD555E210FDB1400347F58 /* AppDelegate.swift */,
+				EA86ED55210FE5F500E02DBB /* Constantes.swift */,
+				EACD5565210FDB1500347F58 /* Assets.xcassets */,
+				EACD5567210FDB1500347F58 /* LaunchScreen.storyboard */,
+				EACD556A210FDB1500347F58 /* Info.plist */,
+				EAB52E2321112F4D00BBCC3E /* ColorHex.swift */,
+			);
+			path = SuportingFiles;
+			sourceTree = "<group>";
+		};
+		EA86ED58210FE8F700E02DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EACD5560210FDB1400347F58 /* ViewController.swift */,
+				EA86ED59210FEAF400E02DBB /* CarroTableViewCell.swift */,
+				EA86ED5A210FEAF400E02DBB /* CarroTableViewCell.xib */,
+				EAB52E25211130B900BBCC3E /* DetalhesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EACD5552210FDB1400347F58 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +169,8 @@
 				EACD5572210FDB1500347F58 /* CarrosApiTests */,
 				EACD557D210FDB1500347F58 /* CarrosApiUITests */,
 				EACD555C210FDB1400347F58 /* Products */,
+				1682797064D89827BF259DC7 /* Pods */,
+				4E78404B9BA8F042AB3FFB9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +187,11 @@
 		EACD555D210FDB1400347F58 /* CarrosApi */ = {
 			isa = PBXGroup;
 			children = (
-				EACD555E210FDB1400347F58 /* AppDelegate.swift */,
-				EACD5560210FDB1400347F58 /* ViewController.swift */,
+				EACD5593210FDC8900347F58 /* Networking */,
+				EACD558C210FDB2A00347F58 /* models */,
+				EA86ED58210FE8F700E02DBB /* View */,
 				EACD5562210FDB1400347F58 /* Main.storyboard */,
-				EACD5565210FDB1500347F58 /* Assets.xcassets */,
-				EACD5567210FDB1500347F58 /* LaunchScreen.storyboard */,
-				EACD556A210FDB1500347F58 /* Info.plist */,
+				EA86ED57210FE88600E02DBB /* SuportingFiles */,
 			);
 			path = CarrosApi;
 			sourceTree = "<group>";
@@ -125,6 +214,24 @@
 			path = CarrosApiUITests;
 			sourceTree = "<group>";
 		};
+		EACD558C210FDB2A00347F58 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EACD558D210FDB4500347F58 /* Carro.swift */,
+				EACD558F210FDB6800347F58 /* Carros.swift */,
+				EACD5591210FDB7E00347F58 /* CarrosResponse.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EACD5593210FDC8900347F58 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EACD5594210FDCAB00347F58 /* ApiCarrros.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EACD5583210FDB1500347F58 /* Build configuration list for PBXNativeTarget "CarrosApi" */;
 			buildPhases = (
+				62C757727DEB552616D1D371 /* [CP] Check Pods Manifest.lock */,
 				EACD5557210FDB1400347F58 /* Sources */,
 				EACD5558210FDB1400347F58 /* Frameworks */,
 				EACD5559210FDB1400347F58 /* Resources */,
+				EC0F09048201ABD188768F52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACD5569210FDB1500347F58 /* LaunchScreen.storyboard in Resources */,
+				EA86ED5C210FEAF400E02DBB /* CarroTableViewCell.xib in Resources */,
 				EACD5566210FDB1500347F58 /* Assets.xcassets in Resources */,
 				EACD5564210FDB1400347F58 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +361,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62C757727DEB552616D1D371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrosApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0F09048201ABD188768F52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarrosApi/Pods-CarrosApi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarrosApi/Pods-CarrosApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EACD5557210FDB1400347F58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACD5592210FDB7E00347F58 /* CarrosResponse.swift in Sources */,
+				EACD5595210FDCAB00347F58 /* ApiCarrros.swift in Sources */,
+				EACD558E210FDB4500347F58 /* Carro.swift in Sources */,
+				EACD5590210FDB6800347F58 /* Carros.swift in Sources */,
+				EAB52E2421112F4D00BBCC3E /* ColorHex.swift in Sources */,
 				EACD5561210FDB1400347F58 /* ViewController.swift in Sources */,
+				EA86ED5B210FEAF400E02DBB /* CarroTableViewCell.swift in Sources */,
+				EAB52E27211130B900BBCC3E /* DetalhesViewController.swift in Sources */,
+				EA86ED56210FE5F500E02DBB /* Constantes.swift in Sources */,
 				EACD555F210FDB1400347F58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,10 +595,11 @@
 		};
 		EACD5584210FDB1500347F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F821B6194E1CFEE7FC115C /* Pods-CarrosApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CarrosApi/Info.plist;
+				INFOPLIST_FILE = CarrosApi/SuportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,10 +613,11 @@
 		};
 		EACD5585210FDB1500347F58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189F55157EDE233C46EA2F12 /* Pods-CarrosApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CarrosApi/Info.plist;
+				INFOPLIST_FILE = CarrosApi/SuportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
